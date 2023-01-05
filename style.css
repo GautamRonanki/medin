@@ -3199,7 +3199,7 @@ html[xmlns] .slider-wrap {
 
 	.header-wrap-clone {
 		display: block;
-		height: calc( 100px + 1px );
+		height: calc( 100px + 1px ) !important;
 	}
 
 	.header-size-sm .header-wrap-clone {
@@ -5924,7 +5924,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 
 .slider-caption.slider-caption-center {
 	position: relative;
-	max-width: 800px;
+	max-width: 100%;
 	text-align: center;
 	margin: 0 auto;
 	left: 0;
@@ -7625,7 +7625,7 @@ body:not(.device-touch) .portfolio {
 .entry-title h4 {
 	margin: 0;
 	font-size: 1.5rem;
-	font-weight: 600;
+	font-weight: 400 !important;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
@@ -7739,7 +7739,7 @@ body:not(.device-touch) .portfolio {
 	text-decoration: none;
 }
 
-.entry-content { margin-top: 30px; }
+.entry-content { margin-top: 30px; font-weight: 350 !important; }
 
 .single-post .entry-content { margin-top: 0; }
 
@@ -13627,7 +13627,6 @@ h3.titular-title { font-size: 2rem; }
 .emphasis-title h2 {
 	margin-bottom: 0;
 	font-weight: 700;
-	text-transform: uppercase;
 	letter-spacing: 1px;
 	color: #333;
 }
@@ -16819,7 +16818,7 @@ label.checkbox { padding-left: 20px; }
 	font-size: 25px;
 	line-height: 1.3 !important;
     font-weight: 60;
-	color: black;
+	color: black !important;
 }
 .testm{
 	background-color: red;
@@ -16847,7 +16846,9 @@ h2{
 .simg{
 	border-radius: 7px;;
 }
-
+.bbold{
+	font-weight: 400 !important;
+}
 
 
 
