@@ -7571,6 +7571,7 @@ body:not(.device-touch) .portfolio {
 .entry {
 	position: relative;
 	margin-bottom: 50px;
+
 }
 
 .posts-md .entry,
@@ -16852,6 +16853,12 @@ h2{
 
 .abp{
 	font-size: 23px;
+}
+.homg{
+	width: 100% !important;
+}
+.blg{
+	padding: 40px !important;
 }
 
 
